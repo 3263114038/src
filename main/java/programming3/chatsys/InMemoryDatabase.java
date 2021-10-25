@@ -10,6 +10,10 @@ public class InMemoryDatabase implements Database {
         users = new LinkedList<>();
     }
 
+    public InMemoryDatabase(List<User> users) {
+        this.users = users;
+    }
+
     @Override
     public String toString() {
         return "InMemoryDatabase{" +

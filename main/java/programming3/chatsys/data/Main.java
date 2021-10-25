@@ -1,6 +1,9 @@
-package programming3.chatsys;
+package programming3.chatsys.data;
 
 import com.sun.xml.internal.bind.v2.runtime.output.SAXOutput;
+import programming3.chatsys.Database;
+import programming3.chatsys.InMemoryDatabase;
+import programming3.chatsys.User;
 
 public class Main {
     public static void main(String[] args) {
